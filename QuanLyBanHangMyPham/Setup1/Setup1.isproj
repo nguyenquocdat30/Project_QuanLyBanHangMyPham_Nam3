@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<!-- Select a Product Configuration -->
+		<InstallShieldProductConfiguration>Express</InstallShieldProductConfiguration>
+		<!-- Select a Visual Studio Configuration / InstallShield Release -->
+		<Configuration>Debug</Configuration>
+		<InstallShieldRelease>$(Configuration)</InstallShieldRelease>
+	</PropertyGroup>
+	<ItemGroup>
+		<!-- The InstallShieldProject item selects the project to build -->
+		<InstallShieldProject Include="$(MSBuildProjectDirectory)\$(MSBuildProjectName).isl"/>
+		<!-- The InstallShieldReleaseFlags sets Release Flags -->
+		<!--<InstallShieldReleaseFlags Include=""/>-->
+		<!-- The InstallShieldMergeModulePath specifies what directories are
+		searched for Merge Modules -->
+		<!--<InstallShieldMergeModulePath Include=""/>-->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The ProjectReference items refer to any Visual Studio solutions you want to automatically probe for Project Output Groups.  -->
+	</ItemGroup>
+	<ItemGroup>
+		<!-- The TaggedOutputs items allow you to explicitly add extra files to output groups. Each item must include both Name and OutputGroup, as well as TargetPath metadata values. -->
+		<!--<TaggedOutputs Include="C:\My Test Exe.exe">
+			<Name>My Test Project</Name>
+			<OutputGroup>Primary output</OutputGroup>
+			<TargetPath>My Test Exe.exe</TargetPath>
+		</TaggedOutputs> -->
+	</ItemGroup>
+	<Import Project="$(MSBuildExtensionsPath32)\InstallShield\2015Limited\InstallShield.targets"/>
+	<ItemGroup>
+		<ProjectReference Include="..\BLL\BLL.csproj">
+			<Name>BLL</Name>
+			<Project>{D5275DBC-53FA-4716-9257-10EA43EF1B29}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\DAL\DAL.csproj">
+			<Name>DAL</Name>
+			<Project>{42895EF3-E1EE-43B9-80CB-4A6F8E2382B9}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\DTO\DTO.csproj">
+			<Name>DTO</Name>
+			<Project>{BF4B385A-B6CA-4F87-B3FF-DBF2DE17D67E}</Project>
+		</ProjectReference>
+		<ProjectReference Include="..\QuanLyBanHangMyPham\QuanLyBanHangMyPham.csproj">
+			<Name>QuanLyBanHangMyPham</Name>
+			<Project>{0E5671B5-737E-48A0-8FBA-CC3AB0CBBE56}</Project>
+		</ProjectReference>
+	</ItemGroup>
+</Project>

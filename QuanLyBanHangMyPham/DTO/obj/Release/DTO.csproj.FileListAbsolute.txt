@@ -1,0 +1,5 @@
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DTO\bin\Release\DTO.dll
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DTO\bin\Release\DTO.pdb
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DTO\obj\Release\DTO.csprojResolveAssemblyReference.cache
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DTO\obj\Release\DTO.dll
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DTO\obj\Release\DTO.pdb

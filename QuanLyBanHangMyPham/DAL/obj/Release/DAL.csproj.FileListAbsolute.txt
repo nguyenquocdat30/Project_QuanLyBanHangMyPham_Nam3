@@ -1,0 +1,7 @@
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DAL\bin\Release\DAL.dll
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DAL\bin\Release\DAL.pdb
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DAL\bin\Release\DTO.dll
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DAL\bin\Release\DTO.pdb
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DAL\obj\Release\DAL.dll
+E:\PROJECT_C#\QuanLyBanHangMyPham\QuanLyBanHangMyPham\DAL\obj\Release\DAL.pdb
